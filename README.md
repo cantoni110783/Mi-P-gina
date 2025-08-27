@@ -1,2 +1,3 @@
 ## Mi página web
-este es un repositorio de mi primera página web.
+# Ayudenme a mejorarlo porfa...
+este es un repositorio de mi página web personal
