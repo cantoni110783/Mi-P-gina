@@ -1,0 +1,87 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Encabezado */
+header {
+    background-color: #837d7d;
+    color: #000000;
+    padding: 1em 0;
+    position: sticky;
+    top: 0;
+}
+
+header h1 {
+    margin-bottom: 0.5em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: rgb(82, 85, 99);
+}
+
+/* Contenido principal */
+main {
+    padding: 2em 0;
+}
+
+main h2 {
+    margin-bottom: 0.5em;
+    color: cornflowerblue;
+}
+main a {
+    text-decoration: none;
+    color: rgb(83, 175, 175);
+}
+main a:hover {
+    color: rgb(129, 211, 211);
+}
+section {
+    margin-bottom: 2em;
+    transition: all .5s;
+    border-radius: 10px;
+}
+section:hover {
+    box-shadow: 0 0 30px rgba(248, 248, 248, 0.4);
+}
+
+/* Pie de página */
+footer {
+    background-color: #222;
+    color: #ccc;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+}
